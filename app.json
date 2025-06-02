@@ -3,6 +3,7 @@
     "name": "abastece-10",
     "slug": "abastece-10",
     "version": "1.0.0",
+    "scheme": "abastece-10",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -30,6 +31,9 @@
       "eas": {
         "projectId": "5db67812-1119-4ba3-b7e9-cb78f061189a"
       }
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
